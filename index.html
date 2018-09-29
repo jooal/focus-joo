@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+        <!--jquery link-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--moment --> 
+            <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!--firebase-->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <!--font link-->
+        <!--font linke-->
+        <link href="https://fonts.googleapis.com/css?family=Adamina|Cabin+Sketch|Cookie|Cormorant|Dawning+of+a+New+Day|Fredericka+the+Great|Galada|Grand+Hotel|Julius+Sans+One|Kranky|League+Script|Life+Savers|Limelight|Londrina+Shadow|Londrina+Sketch|Merriweather|Oleo+Script|Pinyon+Script|Playball|Rufina|Sacramento|Scheherazade|Yellowtail"
+        rel="stylesheet">
+    <!--css page link-->
+    <link rel="stylesheet" type="text/css" href="css/styles-v2.css">
+
+    <!--soundcloud api-->
+  </head>
+
+  <body id="page-top">
+      <!--navbar-->
+      <nav class="navbar navbar-light bg-white" id="navbar">
+          <a class="navbar-brand" href="#">
+              <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+          </a>
+      </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <h1>Focus</h1>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/eye-icon.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="col-12" id="column12">
+
+              <div id="inputDiv">
+                  <form>
+                     ADD TASK:     <input id="taskInput" type="text" placeholder="Add Task">
+                      <br>
+                      START TIME: <br><input class="timeInput" id="startTimeInput" type="time" placeholder="Start Time"><br>
+                      END TIME: <br><input class="timeInput" id="endTimeInput" type="time" placeholder="End Time"><br>
+                      
+                      ADDITIONAL COMMENTS:     <input id="commentsInput" type="text" placeholder="Additional comments">
+                      <input id="submitBtn" type="submit" class="btn btn-primary btn-sm">
+                      <h5 class="text-center" id="current-time"></h5>
+                  </form>
+              </div>
+
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+          <!--row One-->
+          <div class="row">
+              <div class="col-12 text-center">
+                  <!-- moved header to top -->
+                  <div id="header">
+                      <div class="quoteDiv">
+                          <p id="quote"> "Infuse your life with action. Don't wait for it to happen. Make it happen. Make
+                              your own future." </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row" id="row2">
+
+              <div class="col-12 border text-center" id="row2Column8">
+                  <h3 id="toCompleteBtn">To Do</h3>
+              </div>
+
+          </div>
+
+          <!--row Three-->
+          <div class="row" id="row3">
+              <div class="col-12" id="taskDiv">
+
+              </div>
+          </div>
+      </div>
+
+  </div>
+
+
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="./assets/javascript/app-v2.js"></script>
+
+  </body>
+
+</html>
